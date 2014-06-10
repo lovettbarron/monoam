@@ -3,7 +3,7 @@
 
 [IDEO Digital Shop](http://ideo.com/expertise/digital-shop)
 
-![WayTooGood]
+![WayTooGood](https://raw.githubusercontent.com/readywater/monoam/master/diagram.jpg)
 
 ### MONOME Sequencer:
 Install Max/MSP lib (included in repo, or install from http://noam.io)
