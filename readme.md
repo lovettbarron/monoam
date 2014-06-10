@@ -1,5 +1,5 @@
 # NOAM Demo for Eyeo Festival
-# Phone Tapping and Monome Sequencing
+### Phone Tapping and Monome Sequencing
 
 [IDEO Digital Shop](http://ideo.com/expertise/digital-shop)
 
