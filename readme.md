@@ -16,7 +16,7 @@ Go to http://localhost:3000
 Place phone in pocket, tap away
 
 ### Robot Xylophone
-Yeah...
+Made by Evan Shapiro, the Noamsource.
 Arduino + Wifi shield + Array of solonoids
 
 Thanks to:
