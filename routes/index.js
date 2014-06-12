@@ -21,7 +21,7 @@ exports.note = function(req, res){
   	console.log(req.body.note)
   if(lemma.isConnected()) {
     var note = req.body.note;
-    note = note > 0 && < 2 ? note + 8 : 11;
+    note = note > 0 && note < 2 ? note + 8 : 11;
 	lemma.sendEvent("Note",note);
 	console.log("Sent to Noam Note: " + note)
     res.send(200, "Sent to Lemma");
