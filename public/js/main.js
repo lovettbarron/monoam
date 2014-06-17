@@ -33,9 +33,13 @@ NoamBassControl.prototype.sendShake = function() {
     $.post('/note', { note: 0 }, function() {
         console.log("Post successful");
     });
+    $('.background').animate({opacity: 1}, 500, function() {
+        $(this).animate({opacity: 0},200);
+    })
     console.log("sendShake");
 };
 
 $(function() {
+    $('.background').height($(window).height())
     var bassControl = new NoamBassControl();
 });
